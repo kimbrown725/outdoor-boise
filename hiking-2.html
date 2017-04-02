@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+
+<html class="no-js">
+
+<head>
+    <meta charset="UTF-8" />
+
+    <!--Don't forget to fill these out!-->
+    <title>Outdoor Boise</title>
+    <meta name="description" content="Visit Boise, Idaho and find your outdoor adventure today." />
+
+
+    <!--Links to the main Style Sheet-->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <!--Links to a modernizer JavaScript file that fixes a lot of issues with old browsers-->
+    <script src="js/modernizr.js"></script>
+
+    <!--Makes the site so it won't scale down on small devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--my attempt at loading fonts from Adobe Typekit -->
+    <script src="https://use.typekit.net/mwt8iwa.js"></script>
+    <script>
+        try {
+            Typekit.load({
+                async: true
+            });
+        } catch (e) {}
+    </script>
+
+    <!--Google font load -->
+
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav class="dropdown" id="menu">
+            <header>
+                <nav class="burger">
+                    <a href="#" onclick="toggle_visibility('menu');" />
+                    <img src="images/close.png" alt="close" />
+                </nav>
+
+                <div class="logo">
+                    <img src="images/outdoor-boise-logo.svg" alt="Outdoor Boise logo" />
+                </div>
+
+            </header>
+
+            <ul>
+                <a href="index.html">
+                    <li>Things To Do</li>
+                </a>
+                <a href="#">
+                    <li>Plan Your Visit</li>
+                </a>
+                <a href="#">
+                    <li>Trip Guides</li>
+                </a>
+                <a href="#">
+                    <li><img src="images/search.png" alt="search icon" /></li>
+                </a>
+                <a href="#">
+                    <li> <img src="images/favorite.png" alt="heart" /> </li>
+                </a>
+            </ul>
+
+        </nav>
+
+
+   <header>
+            <nav class="burger">
+                <a href="#" onclick="toggle_visibility('menu');">
+                    <img src="images/mobile-nav.png" alt="navigation menu" /> </a>
+            </nav>
+            <div class="logo">
+                <img src="images/outdoor-boise-logo.svg" alt="outdoor boise logo" />
+            </div>
+        </header>
+
+   <!--  end of header -->
+
+        <div class="col1">
+            <h3>Search Results</h3>
+
+
+            <div class="attraction-info">
+                <img src="images/eastpark.png" alt="Boise Foothills East Park" />
+                <div class="number">1</div>
+                <h4>Foothills East Park</h4>
+
+               
+                <div class="left-attraction"> 
+                    <p> >Boise National Forest<br>
+                    34 Highway 21<br>
+                    Boise, Idaho 83704 <br>
+                    208-555-5555 <br>
+                    Open until 10 p.m.</p>
+                </div>
+               
+               <div class="right-attraction">  <ul class="icons">
+                     <li><img src="images/icon-hike.svg" alt="icon hiking" /> </li>
+                     <li><img src="images/icon-swim.svg" alt="icon of person swimming" /> </li>
+                     <li><img src="images/icon-picnic.svg" alt="picnic icon" /></li>
+                    <li><img src="images/icon-fish.svg" alt="fishing icon"</li>
+                     </ul>
+                </div>
+            </div>
+            
+            <div class="attraction-info">
+                <img src="images/greenbelt.png" alt="Boise greenbelt" />
+                <div class="number">2</div>
+                <h4>Boise River Greenbelt</h4></div>
+
+            <div class="attraction-info">
+                <img src="images/camelsback.png" alt="Camel's Back Park in Boise" />
+                <div class="number">3</div>
+                <h4>Camel's Back Park</h4></div>
+
+        </div>
+
+
+        <div class="col2">
+           
+                <ul class="refine">
+                <li>Refine</li>
+                  <li>Skill Level</li>  
+                     <li>Sort</li>
+                </ul>
+                      
+            <img src="images/google-map-boise2.png" alt="google map of Boise" />
+        </div>
+
+
+<div class="container footercon">
+    <img src="images/mountains@3x.png" alt="illustration of Boise mountains" />
+
+    <div class="footer-contents">
+        <div class="footer-left">
+            <ul class="social">
+
+                <li>
+                    <a href="http://www.facebook.com"><img src="images/facebook.png" alt="facebook logo" /></a>
+                </li>
+
+                <li>
+                    <a href="http://www.instagram.com"><img src="images/instagram.png" alt="Instagram logo" /></a>
+                </li>
+
+                <li>
+                    <a href="http://www.twitter.com"><img src="images/twitter.png" alt="Twitter logo" /></a>
+                </li>
+
+                <li>
+                    <a href="http://www.pinterest.com"> <img src="images/pinterest.png" alt="Pinterest logo" /></a>
+                </li>
+
+                <li>
+                    <a href="http://www.youtube.com"> <img src="images/youtube.png" alt="YouTube logo" /> </a>
+                </li>
+
+                <li>
+                    <a href=""><img src="images/mail.png" alt="email logo" /></a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer-middle">
+            <h3> #OutdoorBoise</h3>
+        </div>
+
+        <div class='info'>
+            <p>Boise Visitor's Center </br>
+                250 5th St. </br>
+                Boise, ID 83702 </br>
+                Tel: (208)344-777</p>
+            <p>Terms of Use | Copyright © 2017 KB Design Co. </p>
+        </div>
+
+    </div>
+
+</div>
+
+</div>
+
+
+
+
+        <!--end of wrapper class -->
+
+        <!-- Place this script at the end of your body -->
+        <script type="text/javascript">
+            <!--
+            function toggle_visibility(id) {
+                var e = document.getElementById(id);
+                if (e.style.display == 'block')
+                    e.style.display = 'none';
+                else
+                    e.style.display = 'block';
+            }
+            //-->
+        </script>
+</body>
+
+</html>
